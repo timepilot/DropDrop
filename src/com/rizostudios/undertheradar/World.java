@@ -38,11 +38,11 @@ public class World {
 			break;
 		case 1:
 			pW = 75;
-			startingPV = 75;
+			startingPV = 90;
 			break;
 		case 2:
 			pW = 50;
-			startingPV = 90;
+			startingPV = 120;
 			break;
 		}
 		
