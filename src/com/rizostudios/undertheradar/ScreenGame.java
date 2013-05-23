@@ -58,7 +58,7 @@ public class ScreenGame extends Screen {
 			return;
 		
 		world.update(delta);
-		score = (int) ((world.pV - world.startingPV) * 100);
+		score = (int) ((world.pV - world.startingPV) * 10);
 	}
 	
 	@Override

@@ -68,7 +68,7 @@ public class World {
 		if (platforms.size() < 2)
 			platforms.add(new EntityPlatform(new Vector2(rand.nextInt(Game.width - pW), -10), pW, 10, pV));
 		
-		pV += 0.001F;
+		pV += 0.01F;
 	}
 	
 	public void render() {
